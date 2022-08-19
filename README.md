@@ -2,6 +2,7 @@
 <h1 align="center">Hi 👋, I'm Tajwar Saiyeed</h1>
 
 <h3 align="center">MERN Stack Developer</h3>
+![I am GitHub Readme Generator's creator](https://github.com/TajwarSaiyeed/TajwarSaiyeed/blob/main/PicsArt_08-19-09.55.30.jpg)
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=tajwarsaiyeed&label=Profile%20views&color=0e75b6&style=flat" alt="tajwarsaiyeed" /> </p>
 
@@ -38,6 +39,8 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=tajwarsaiyeed&show_icons=true&locale=en" alt="tajwarsaiyeed" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=tajwarsaiyeed&" alt="tajwarsaiyeed" /></p>
+
+![GitHub metrics](https://metrics.lecoq.io/TajwarSaiyeed )  
 
 
 
