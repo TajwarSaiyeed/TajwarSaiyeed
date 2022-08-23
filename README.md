@@ -3,7 +3,7 @@
 
 <h3 align="center">MERN Stack Developer</h3>
 
-
+https://raw.githubusercontent.com/TajwarSaiyeed/TajwarSaiyeed/main/PicsArt_08-19-09.55.30.jpg
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=tajwarsaiyeed&label=Profile%20views&color=0e75b6&style=flat" alt="tajwarsaiyeed" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=tajwarsaiyeed" alt="tajwarsaiyeed" /></a> </p>
