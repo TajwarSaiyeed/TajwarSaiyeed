@@ -10,7 +10,7 @@ https://drive.google.com/file/d/1HIdgo2pEBts_fSfJfWae4pNTZTolWvnC/view?usp=drive
 
 <p align="left"> <a href="https://twitter.com/tajwarsaiyeed" target="blank"><img src="https://img.shields.io/twitter/follow/tajwarsaiyeed?logo=twitter&style=for-the-badge" alt="tajwarsaiyeed" /></a> </p>
 
-- 🔭 I’m currently working on **JavaScript Project**
+- 🔭 I’m currently working on **React Project**
 
 - 📝 I regularly write articles on [https://www.abidtechnology36.blogspot.com](https://www.abidtechnology36.blogspot.com)
 
