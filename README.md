@@ -2,7 +2,7 @@
 <h1 align="center">Hi 👋, I'm Tajwar Saiyeed</h1>
 
 <h3 align="center">MERN Stack Developer</h3>
-https://drive.google.com/file/d/1HIdgo2pEBts_fSfJfWae4pNTZTolWvnC/view?usp=drivesdk
+
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=tajwarsaiyeed&label=Profile%20views&color=0e75b6&style=flat" alt="tajwarsaiyeed" /> </p>
 
