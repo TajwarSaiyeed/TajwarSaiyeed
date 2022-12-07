@@ -11,10 +11,7 @@
 <p align="left"> <a href="https://twitter.com/tajwarsaiyeed" target="blank"><img src="https://img.shields.io/twitter/follow/tajwarsaiyeed?logo=twitter&style=for-the-badge" alt="tajwarsaiyeed" /></a> </p>
 
 - 🔭 I’m currently working on **React Project**
-
-- 📝 I regularly write articles on [https://www.abidtechnology36.blogspot.com](https://www.abidtechnology36.blogspot.com)
-
-- 📫 How to reach me **rjabid36@gmail.com**
+- 📫 How to reach me **tajwarsaiyeed15@gmail.com**
 
 <h3 align="center">Connect with me:</h3>
 
