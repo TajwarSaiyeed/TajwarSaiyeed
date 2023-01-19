@@ -70,6 +70,7 @@
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=tajwarsaiyeed&show_icons=true&locale=en&layout=compact" alt="tajwarsaiyeed" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=tajwarsaiyeed&show_icons=true&locale=en" alt="tajwarsaiyeed" /></p>
+[![Tajwar's GitHub stats](https://github-readme-stats.vercel.app/api?username=tajwarsaiyeed)](https://github.com/tajwarsaiyeed/github-readme-stats)
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=tajwarsaiyeed&" alt="tajwarsaiyeed" /></p>
 
