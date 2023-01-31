@@ -65,9 +65,10 @@
     <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> 
   </a>
 </p>
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=tajwarsaiyeed&" alt="tajwarsaiyeed" /></p>
-
-![GitHub metrics](https://metrics.lecoq.io/TajwarSaiyeed )  
+<p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=tajwarsaiyeed&" alt="tajwarsaiyeed" /></p>
+<div align="center">
+  ![GitHub metrics](https://metrics.lecoq.io/TajwarSaiyeed )  
+</div>
 
 
 [![Tajwar's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=TajwarSaiyeed&bg_color=000000&color=9e4c98&line=9e4c98&point=403d3d&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
