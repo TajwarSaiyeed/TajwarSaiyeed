@@ -4,11 +4,11 @@
 <h3 align="center">Full Stack Developer</h3>
 <img src="https://i.ibb.co/8B7Ftgp/Black-Minimal-Motivation-Quote-Linked-In-Banner.png" alt="tajwarSaiyeed" />
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=tajwarsaiyeed&label=Profile%20views&color=0e75b6&style=flat" alt="tajwarsaiyeed" /> </p>
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=tajwarsaiyeed&label=Profile%20views&color=0e75b6&style=flat" alt="tajwarsaiyeed" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=tajwarsaiyeed" alt="tajwarsaiyeed" /></a> </p>
+<p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=tajwarsaiyeed" alt="tajwarsaiyeed" /></a> </p>
 
-<p align="left"> <a href="https://twitter.com/tajwarsaiyeed" target="blank"><img src="https://img.shields.io/twitter/follow/tajwarsaiyeed?logo=twitter&style=for-the-badge" alt="tajwarsaiyeed" /></a> </p>
+<p align="center"> <a href="https://twitter.com/tajwarsaiyeed" target="blank"><img src="https://img.shields.io/twitter/follow/tajwarsaiyeed?logo=twitter&style=for-the-badge" alt="tajwarsaiyeed" /></a> </p>
 
 - 🔭 I’m currently working on **React Project**
 - 📫 How to reach me **tajwarsaiyeed15@gmail.com**
@@ -66,9 +66,7 @@
   </a>
 </p>
 <p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=tajwarsaiyeed&" alt="tajwarsaiyeed" /></p>
-<div align="center">
-  ![GitHub metrics](https://metrics.lecoq.io/TajwarSaiyeed )  
-</div>
+<div align="center">![GitHub metrics](https://metrics.lecoq.io/TajwarSaiyeed)</div>
 
 
 [![Tajwar's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=TajwarSaiyeed&bg_color=000000&color=9e4c98&line=9e4c98&point=403d3d&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
