@@ -66,7 +66,8 @@
   </a>
 </p>
 <p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=tajwarsaiyeed&" alt="tajwarsaiyeed" /></p>
-![GitHub metrics](https://metrics.lecoq.io/TajwarSaiyeed)
+
+![matrix](https://metrics.lecoq.io/TajwarSaiyeed)
 
 
 [![Tajwar's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=TajwarSaiyeed&bg_color=000000&color=9e4c98&line=9e4c98&point=403d3d&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
