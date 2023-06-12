@@ -67,6 +67,9 @@
 </p>
 <p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=tajwarsaiyeed&" alt="tajwarsaiyeed" /></p>
 
+[![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=tajwarsaiyeed)](https://github.com/anuraghazra/github-readme-stats)
+
+
 ![matrix](https://metrics.lecoq.io/TajwarSaiyeed)
 
 
