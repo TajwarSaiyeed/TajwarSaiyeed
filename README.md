@@ -1,34 +1,28 @@
 
-<h1 align="center">Hi 👋, I'm Tajwar Saiyeed</h1>
+# Hi 👋, I'm Tajwar Saiyeed
 
-<h3 align="center">Full Stack Developer</h3>
+## Full Stack Developer
+
 <img src="https://i.ibb.co/8B7Ftgp/Black-Minimal-Motivation-Quote-Linked-In-Banner.png" alt="tajwarSaiyeed" />
 
-<p align="center"> <img src="https://komarev.com/ghpvc/?username=tajwarsaiyeed&label=Profile%20views&color=0e75b6&style=flat" alt="tajwarsaiyeed" /> </p>
 
-<p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=tajwarsaiyeed&theme=onedark" alt="tajwarsaiyeed" /></a> </p>
-<p align="center"> <a href="https://twitter.com/tajwarsaiyeed" target="blank"><img src="https://img.shields.io/twitter/follow/tajwarsaiyeed?logo=twitter&style=for-the-badge" alt="tajwarsaiyeed" /></a> </p>
+🔭 I’m currently working on NEXT.JS Project
 
-💻 Interesting Contributions
-
-[![keep-react](https://github-readme-stats.vercel.app/api/pin/?username=StaticMania&repo=keep-react&theme=dark&show_owner=true)](https://github.com/StaticMania/keep-react/pull/16)
-
-<p align="center">- 🔭 I’m currently working on NEXT.JS Project</p>
-<p align="center">- 📫 How to reach me **tajwarsaiyeed15@gmail.com**</p>
+📫 How to reach me **tajwarsaiyeed15@gmail.com**
 
 
-<h3 align="center">Connect with me:</h3>
+# Connect with me:
 
-<p align="center">
+<div align="left">
 <a href="https://twitter.com/tajwarsaiyeed" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="tajwarsaiyeed" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/tajwarsaiyeed" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="tajwarsaiyeed" height="30" width="40" /></a>
 <a href="https://fb.com/tajwarsaiyeed" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="tajwarsaiyeed" height="30" width="40" /></a>
 <a href="https://instagram.com/tajwarsaiyeed" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="tajwarsaiyeed" height="30" width="40" /></a>
-</p>
+</div>
 
-<h3 align="center">Languages and Tools:</h3>
+# Languages and Tools:
 
-<p align="center"> 
+<p align="left"> 
   <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> 
   </a> 
@@ -69,12 +63,26 @@
     <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> 
   </a>
 </p>
-<p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=tajwarsaiyeed&" alt="tajwarsaiyeed" /></p>
 
+
+<img src="https://komarev.com/ghpvc/?username=tajwarsaiyeed&label=Profile%20views&color=0e75b6&style=flat" alt="tajwarsaiyeed" />
+
+<a href="https://twitter.com/tajwarsaiyeed" target="blank"><img src="https://img.shields.io/twitter/follow/tajwarsaiyeed?logo=twitter&style=for-the-badge" alt="tajwarsaiyeed" /></a>
+
+<a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=tajwarsaiyeed" alt="tajwarsaiyeed" /></a> 
+
+
+
+# 💻 Interesting Contributions
+
+[![keep-react](https://github-readme-stats.vercel.app/api/pin/?username=StaticMania&repo=keep-react&theme=dark&show_owner=true)](https://github.com/StaticMania/keep-react/pull/16)
+
+# Most Used Language
 
 [![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=tajwarsaiyeed)](https://github.com/anuraghazra/github-readme-stats)
 
+<img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=tajwarsaiyeed&" alt="tajwarsaiyeed" />
 
-![matrix](https://metrics.lecoq.io/TajwarSaiyeed)
+![tajwar's GitHub stats](https://github-readme-stats.vercel.app/api?username=tajwarsaiyeed&show_icons=true)
 
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=tajwarsaiyeed&bg_color=000000&color=9e4c98&line=0055ff&point=ff0000&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![tajwar's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=tajwarsaiyeed&bg_color=000000&color=9e4c98&line=0055ff&point=ff0000&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
