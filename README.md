@@ -89,6 +89,8 @@
 
 
 <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=tajwarsaiyeed&" alt="tajwarsaiyeed" />
+ 
+![LeetCode Stats](https://leetcard.jacoblin.cool/tajwarsaiyeed?theme=dark&font=Vollkorn&ext=activity)
 
 ![tajwar's GitHub stats](https://github-readme-stats.vercel.app/api?username=tajwarsaiyeed&show_icons=true)
 
