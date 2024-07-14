@@ -89,6 +89,8 @@
 
 
 <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=tajwarsaiyeed&" alt="tajwarsaiyeed" />
+
+<a href="https://app.daily.dev/tajwarsaiyeed"><img src="https://api.daily.dev/devcards/v2/gleS0JYk9PJFkdDxHNRE6.png?type=default&r=ahh" width="356" alt="Tajwar Saiyeed Abid's Dev Card"/></a>
  
 ![LeetCode Stats](https://leetcard.jacoblin.cool/tajwarsaiyeed?theme=dark&font=Vollkorn&ext=activity)
 
