@@ -1,4 +1,4 @@
-# Hi 👋, I'm Tajwar Saiyeed
+# Hi 👋, I'm Tajwar Saiyeed Abid
 
 ## Full Stack Developer
 
