@@ -2,7 +2,8 @@
 
 ## Full Stack Developer
 
-![tajwar_saiyeed](/tajwar_saiyeed_abid.png)
+[![tajwar_saiyeed](/tajwar_saiyeed_abid.png)](https://www.linkedin.com/in/tajwar-saiyeed-abid-b7809a349/)
+
 
 # 💫 About Me:
 🔭 I’m currently working on Next.js.<br>👯 I’m looking to collaborate on open-source projects.<br>🤝 I’m looking for help with various topics.<br>🌱 I’m currently learning Python and Django.<br>💬 Ask me about DSA and algorithms.
