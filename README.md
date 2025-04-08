@@ -2,7 +2,7 @@
 
 ## Full Stack Developer
 
-<img src="https://i.ibb.co/8B7Ftgp/Black-Minimal-Motivation-Quote-Linked-In-Banner.png" alt="tajwarSaiyeed" />
+![tajwar_saiyeed](/tajwar_saiyeed_abid.png)
 
 # 💫 About Me:
 🔭 I’m currently working on Next.js.<br>👯 I’m looking to collaborate on open-source projects.<br>🤝 I’m looking for help with various topics.<br>🌱 I’m currently learning Python and Django.<br>💬 Ask me about DSA and algorithms.
