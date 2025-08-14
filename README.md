@@ -23,9 +23,5 @@
 ![](https://github-readme-streak-stats.herokuapp.com/?user=tajwarsaiyeed&theme=dark&hide_border=true)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=tajwarsaiyeed&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact&langs_count=10)
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=tajwarsaiyeed&theme=radical&no-frame=false&no-bg=true&margin-w=4)
-[![](https://visitcount.itsvg.in/api?id=tajwarsaiyeed&icon=0&color=0)](https://visitcount.itsvg.in)
-
 ---
 [![tajwar's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=tajwarsaiyeed&bg_color=000000&color=9e4c98&line=0055ff&point=ff0000&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
