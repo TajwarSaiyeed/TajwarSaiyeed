@@ -2,7 +2,9 @@
 
 ## Full Stack Developer
 
-[![tajwar_saiyeed](/tajwar_saiyeed_abid.png)](https://www.linkedin.com/in/tajwar-saiyeed-abid-b7809a349/)
+<!--- [![tajwar_saiyeed](/tajwar_saiyeed_abid.png)](https://www.linkedin.com/in/tajwar-saiyeed-abid-b7809a349/) -->
+
+<a href="https://kwork.com?ref=16920382" target="_blank"><img src="/tajwar_saiyeed_abid.png" alt="Tajwar Saiyeed Abid Kwork"></a>
 
 
 # 💫 About Me:
