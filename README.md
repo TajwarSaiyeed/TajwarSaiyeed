@@ -3,10 +3,15 @@
 # 💫 About Me:
 
 🔭 I’m currently working with Next.js.
+
 👯 I’m looking to collaborate on open-source projects.
+
 🤝 I’m open to learning and discussing various tech topics.
+
 🌱 I’m currently learning Python and Django.
+
 🎓 I’m pursuing a B.Sc. (Hons.) in Computer Science and Engineering.
+
 💬 Ask me about Data Structures, Algorithms, and Problem Solving.
 
 
