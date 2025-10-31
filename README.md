@@ -1,18 +1,17 @@
 # Hi 👋, I'm Tajwar Saiyeed Abid
 
-## Full Stack Developer
-
-<!--- [![tajwar_saiyeed](/tajwar_saiyeed_abid.png)](https://www.linkedin.com/in/tajwar-saiyeed-abid-b7809a349/) -->
-
-<a href="https://kwork.com?ref=16920382" target="_blank"><img src="/tajwar_saiyeed_abid.png" alt="Tajwar Saiyeed Abid Kwork"></a>
-
-
 # 💫 About Me:
-🔭 I’m currently working on Next.js.<br>👯 I’m looking to collaborate on open-source projects.<br>🤝 I’m looking for help with various topics.<br>🌱 I’m currently learning Python and Django.<br>💬 Ask me about DSA and algorithms.
+
+🔭 I’m currently working with Next.js.
+👯 I’m looking to collaborate on open-source projects.
+🤝 I’m open to learning and discussing various tech topics.
+🌱 I’m currently learning Python and Django.
+🎓 I’m pursuing a B.Sc. (Hons.) in Computer Science and Engineering.
+💬 Ask me about Data Structures, Algorithms, and Problem Solving.
 
 
 ## 🌐 Socials:
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/tajwarsaiyeed) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/tajwarsaiyeed) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@rjabid36) [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/19961650) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/tajwarsaiyeed) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@tajwarsaiyeed) [![Codepen](https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/TajwarSaiyeed) 
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://www.facebook.com/tajwarsaiyeedabid.dev) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/tajwarsaiyeed) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@rjabid36) [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/19961650) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/tajwarsaiyeed) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@tajwarsaiyeed) [![Codepen](https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/TajwarSaiyeed) 
 
 # 💻 Interesting Contributions
 
