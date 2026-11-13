@@ -3,11 +3,22 @@
 Full stack developer and problem solver, building for the web with TypeScript and Go.
 
 **Currently**
+- Junior Software Engineer at [@Code-Studio-Software-Company](https://github.com/Code-Studio-Software-Company)
 - Full stack developer at [@tect0nic-official](https://github.com/tect0nic-official)
 - B.Sc. (Hons.) in Computer Science & Engineering
 - Practicing DSA and problem solving on LeetCode
 
 **Stack:** TypeScript, Next.js, React, Node.js, Go, Python, Django, MongoDB, PostgreSQL, Git, Docker, Linux
+
+<!-- STATS:START -->
+**Stats**
+- Contributions: 12,623 (all time)
+- Current streak: 695 days
+- Longest streak: 695 days
+- Commits this year: 282
+- Stars earned: 46
+- LeetCode problems solved: 435
+<!-- STATS:END -->
 
 **Selected work**
 - [vault.cloud](https://github.com/TajwarSaiyeed/vault.cloud) - Go backend fundamentals for Vault.Cloud
