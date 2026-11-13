@@ -22,6 +22,14 @@ function makeBar(value, total, length = 12) {
   return '█'.repeat(filled) + '░'.repeat(length - filled);
 }
 
+const projectTargets = [
+  { owner: 'TajwarSaiyeed', name: 'vault.cloud' },
+  { owner: 'TajwarSaiyeed', name: 'labdesk' },
+  { owner: 'TajwarSaiyeed', name: 'limecart-ecommerce' },
+  { owner: 'TajwarSaiyeed', name: 'brick-game-9999-in-1' },
+  { owner: 'StaticMania', name: 'keep-react', isContrib: true }
+];
+
 const currentYear = new Date().getFullYear();
 const yearQueries = [];
 for (let y = 2022; y <= currentYear; y++) {
@@ -60,27 +68,23 @@ query($username: String!) {
         }
       }
     }
-    currentCollection: contributionsCollection {
-      totalCommitContributions
-      totalPullRequestContributions
-      contributionCalendar {
-        totalContributions
-        weeks {
-          contributionDays {
-            date
-            weekday
-            contributionCount
-            color
-          }
-        }
-      }
-    }
     thisYearCollection: contributionsCollection(from: "${currentYear}-01-01T00:00:00Z", to: "${currentYear}-12-31T23:59:59Z") {
       totalCommitContributions
       totalPullRequestContributions
     }
     ${yearQueries.join('\n')}
   }
+  ${projectTargets.map((p, i) => `
+    project_${i}: repository(owner: "${p.owner}", name: "${p.name}") {
+      description
+      stargazerCount
+      forkCount
+      primaryLanguage {
+        name
+        color
+      }
+    }
+  `).join('\n')}
 }
 `;
 
@@ -178,10 +182,16 @@ while (idx >= 0 && sortedDays[idx].count > 0) {
 
 const commitsThisYear = user.thisYearCollection?.totalCommitContributions || 0;
 
-const currentCalendar = user.currentCollection?.contributionCalendar;
-const totalContribsLastYear = currentCalendar?.totalContributions || 0;
-const calendarWeeks = currentCalendar?.weeks || [];
-const weeks = calendarWeeks.slice(-53);
+const projectsData = projectTargets.map((p, i) => {
+  const repoData = ghJson.data?.[`project_${i}`] || {};
+  return {
+    ...p,
+    description: repoData.description || '',
+    stargazerCount: repoData.stargazerCount || 0,
+    forkCount: repoData.forkCount || 0,
+    primaryLanguage: repoData.primaryLanguage || null
+  };
+});
 
 let leetCodeData = null;
 try {
@@ -236,13 +246,6 @@ try {
 } catch {
   leetCodeData = null;
 }
-
-const svgWidth = 800;
-const svgHeight = leetCodeData ? 760 : 710;
-const windowX = 16;
-const windowY = 16;
-const windowW = svgWidth - 32;
-const windowH = svgHeight - 32;
 
 let animStep = 0;
 const nextDelay = () => `d-${animStep++}`;
@@ -333,87 +336,6 @@ svgElements.push(`
 `);
 currY += 26;
 
-addPrompt('github --contributions', currY);
-currY += 14;
-
-const boxX = 40;
-const boxY = currY;
-const boxW = 720;
-const boxH = 136;
-
-svgElements.push(`
-  <rect x="${boxX}" y="${boxY}" width="${boxW}" height="${boxH}" rx="8" fill="#0d1117" stroke="#21262d" stroke-width="1" class="line ${nextDelay()}"/>
-  <text x="${boxX + 16}" y="${boxY + 20}" fill="#8b949e" class="line ${nextDelay()} font-code font-12 font-bold">GitHub Contributions (Last 1 Year)</text>
-  <text x="${boxX + boxW - 16}" y="${boxY + 20}" text-anchor="end" fill="#3fb950" class="line ${nextDelay()} font-code font-12 font-bold">${totalContribsLastYear.toLocaleString()} contributions</text>
-`);
-
-const allCounts = weeks.flatMap(w => (w.contributionDays || []).map(d => d.contributionCount || 0)).filter(c => c > 0);
-const maxContrib = allCounts.length > 0 ? Math.max(...allCounts) : 10;
-const q1 = Math.max(1, Math.ceil(maxContrib * 0.25));
-const q2 = Math.max(2, Math.ceil(maxContrib * 0.50));
-const q3 = Math.max(3, Math.ceil(maxContrib * 0.75));
-
-function getHeatmapColor(cnt) {
-  if (cnt <= 0) return '#161b22';
-  if (cnt <= q1) return '#0e4429';
-  if (cnt <= q2) return '#006d32';
-  if (cnt <= q3) return '#26a641';
-  return '#39d353';
-}
-
-const gridX = boxX + 46;
-const gridY = boxY + 34;
-
-svgElements.push(`
-  <text x="${gridX - 8}" y="${gridY + 1 * 12 + 8}" text-anchor="end" fill="#8b949e" class="line ${nextDelay()} font-code font-9">Mon</text>
-  <text x="${gridX - 8}" y="${gridY + 3 * 12 + 8}" text-anchor="end" fill="#8b949e" class="line ${nextDelay()} font-code font-9">Wed</text>
-  <text x="${gridX - 8}" y="${gridY + 5 * 12 + 8}" text-anchor="end" fill="#8b949e" class="line ${nextDelay()} font-code font-9">Fri</text>
-`);
-
-let cellsSvg = [];
-const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-let lastMonth = -1;
-let monthLabels = [];
-
-weeks.forEach((week, wIdx) => {
-  const cellX = gridX + wIdx * 12;
-  const firstDay = week.contributionDays?.[0];
-  if (firstDay?.date) {
-    const d = new Date(firstDay.date);
-    const m = d.getUTCMonth();
-    if (m !== lastMonth) {
-      if (monthLabels.length === 0 || (wIdx - monthLabels[monthLabels.length - 1].wIdx >= 3)) {
-        monthLabels.push({ text: months[m], x: cellX, wIdx });
-        lastMonth = m;
-      }
-    }
-  }
-
-  for (const day of week.contributionDays || []) {
-    const cellY = gridY + (day.weekday || 0) * 12;
-    const color = getHeatmapColor(day.contributionCount || 0);
-    cellsSvg.push(`<rect x="${cellX}" y="${cellY}" width="10" height="10" rx="2" fill="${color}"/>`);
-  }
-});
-
-svgElements.push(`
-  <g class="line ${nextDelay()}">
-    ${cellsSvg.join('')}
-  </g>
-`);
-
-const monthLabelSvg = monthLabels.map(ml =>
-  `<text x="${ml.x}" y="${gridY + 7 * 12 + 10}" fill="#8b949e" class="font-code font-9">${ml.text}</text>`
-).join('');
-
-svgElements.push(`
-  <g class="line ${nextDelay()}">
-    ${monthLabelSvg}
-  </g>
-`);
-
-currY = boxY + boxH + 20;
-
 if (leetCodeData) {
   addPrompt('leetcode --stats', currY);
   currY += 18;
@@ -457,16 +379,120 @@ top5Languages.forEach(l => {
   const padName = l.name.padEnd(12, ' ');
   const pctStr = `${l.percentage.toFixed(1)}%`.padStart(6, ' ');
   svgElements.push(`
-    <text x="40" y="${currY}" class="line ${nextDelay()} font-code font-13">
-      <tspan fill="#c9d1d9">${escapeXml(padName)}</tspan>
-      <tspan fill="${l.color}">[${bar}]</tspan>
-      <tspan fill="#8b949e">${escapeXml(pctStr)}</tspan>
-    </text>
+    <text x="40" y="${currY}" text-anchor="start" class="line ${nextDelay()} font-code font-13" xml:space="preserve"><tspan fill="#c9d1d9">${escapeXml(padName)}</tspan><tspan fill="${l.color}">[${bar}]</tspan><tspan fill="#8b949e">${escapeXml(pctStr)}</tspan></text>
   `);
   currY += 16;
 });
-
 currY += 10;
+
+addPrompt('ls ~/skills', currY);
+currY += 18;
+
+const skills = [
+  { name: 'TypeScript', color: '#3178c6' },
+  { name: 'JavaScript', color: '#f7df1e' },
+  { name: 'React', color: '#61dafb' },
+  { name: 'Next.js', color: '#e6edf3' },
+  { name: 'Node.js', color: '#68a063' },
+  { name: 'Tailwind', color: '#38bdf8' },
+  { name: 'Go', color: '#00add8' },
+  { name: 'Python', color: '#3572A5' },
+  { name: 'Django', color: '#44b78b' },
+  { name: 'MongoDB', color: '#47a248' },
+  { name: 'PostgreSQL', color: '#4169e1' },
+  { name: 'Git', color: '#f05032' },
+  { name: 'Docker', color: '#2496ed' },
+  { name: 'Linux', color: '#fcc624' }
+];
+
+let pillX = 40;
+let pillY = currY;
+const pillH = 20;
+const pillGap = 8;
+const lineGap = 6;
+let currentLinePills = [];
+
+skills.forEach(skill => {
+  const pillW = Math.round(skill.name.length * 7.5 + 16);
+  if (pillX + pillW > 760 && currentLinePills.length > 0) {
+    svgElements.push(`
+      <g class="line ${nextDelay()}">
+        ${currentLinePills.join('')}
+      </g>
+    `);
+    currentLinePills = [];
+    pillX = 40;
+    pillY += pillH + lineGap;
+  }
+  currentLinePills.push(`
+    <rect x="${pillX}" y="${pillY}" width="${pillW}" height="${pillH}" rx="10" fill="#161b22" stroke="${skill.color}" stroke-width="1"/>
+    <text x="${pillX + pillW / 2}" y="${pillY + 14}" text-anchor="middle" fill="${skill.color}" class="font-code font-11 font-bold">${escapeXml(skill.name)}</text>
+  `);
+  pillX += pillW + pillGap;
+});
+
+if (currentLinePills.length > 0) {
+  svgElements.push(`
+    <g class="line ${nextDelay()}">
+      ${currentLinePills.join('')}
+    </g>
+  `);
+}
+
+currY = pillY + pillH + 36;
+
+addPrompt('ls ~/projects', currY);
+currY += 18;
+
+projectsData.forEach(p => {
+  const langName = p.primaryLanguage?.name || 'Markdown';
+  const langColor = p.primaryLanguage?.color || '#8b949e';
+  const repoName = p.name + '/';
+  let repoDisplay = '';
+  if (p.isContrib) {
+    const padLen = Math.max(0, 22 - (repoName.length + 10));
+    repoDisplay = `<tspan fill="#58a6ff">${escapeXml(repoName)}</tspan><tspan fill="#3fb950" font-weight="bold"> (contrib)</tspan><tspan fill="#58a6ff">${' '.repeat(padLen)}</tspan>`;
+  } else {
+    repoDisplay = `<tspan fill="#58a6ff">${escapeXml(repoName.padEnd(22, ' '))}</tspan>`;
+  }
+  const padLang = langName.padEnd(10, ' ');
+  const padStars = String(p.stargazerCount).padEnd(5, ' ');
+  const padForks = String(p.forkCount).padEnd(4, ' ');
+  let desc = p.description || '';
+  if (desc.length > 15) {
+    desc = desc.slice(0, 12) + '...';
+  }
+
+  svgElements.push(`
+    <text x="40" y="${currY}" text-anchor="start" class="line ${nextDelay()} font-code font-12" xml:space="preserve"><tspan fill="#8b949e">drwxr-xr-x </tspan>${repoDisplay}<tspan fill="${langColor}">● </tspan><tspan fill="#8b949e">${escapeXml(padLang)}</tspan><tspan fill="#8b949e">★ ${escapeXml(padStars)}</tspan><tspan fill="#8b949e">⑂ ${escapeXml(padForks)}</tspan><tspan fill="#8b949e">${escapeXml(desc)}</tspan></text>
+  `);
+  currY += 18;
+});
+currY += 10;
+
+addPrompt('cat contact.txt', currY);
+currY += 18;
+
+const contacts = [
+  { k: 'X', v: '@tajwarsaiyeed' },
+  { k: 'LeetCode', v: 'TajwarSaiyeed' },
+  { k: 'StackOverflow', v: '19961650' },
+  { k: 'Medium', v: '@rjabid36' },
+  { k: 'YouTube', v: '@tajwarsaiyeed' },
+  { k: 'CodePen', v: 'TajwarSaiyeed' },
+  { k: 'Instagram', v: '@tajwarsaiyeed' },
+  { k: 'Facebook', v: 'tajwarsaiyeedabid.dev' }
+];
+
+contacts.forEach(c => {
+  const padKey = c.k.padEnd(15, ' ');
+  svgElements.push(`
+    <text x="40" y="${currY}" text-anchor="start" class="line ${nextDelay()} font-code font-13" xml:space="preserve"><tspan fill="#3fb950" font-weight="bold">${escapeXml(padKey)}</tspan><tspan fill="#c9d1d9">${escapeXml(c.v)}</tspan></text>
+  `);
+  currY += 16;
+});
+currY += 10;
+
 svgElements.push(`
   <text x="40" y="${currY}" class="line ${nextDelay()} font-code font-13">
     <tspan fill="#3fb950" font-weight="bold">tajwar@github:~$</tspan>
@@ -474,29 +500,12 @@ svgElements.push(`
   </text>
 `);
 
-const bottomBarH = 34;
-const bottomBarY = windowY + windowH - 16 - bottomBarH;
-
-const chips = ['whoami', 'skills', 'projects', 'github', 'contact', 'help'];
-let chipX = boxX + 170;
-let chipsSvg = [];
-
-chips.forEach(chip => {
-  const chipW = chip.length * 8 + 16;
-  chipsSvg.push(`
-    <rect x="${chipX}" y="${bottomBarY + 7}" width="${chipW}" height="20" rx="4" fill="#161b22" stroke="#21262d" stroke-width="1"/>
-    <text x="${chipX + chipW / 2}" y="${bottomBarY + 21}" text-anchor="middle" fill="#3fb950" class="font-code font-11 font-bold">${chip}</text>
-  `);
-  chipX += chipW + 8;
-});
-
-svgElements.push(`
-  <g class="line ${nextDelay()}">
-    <rect x="${boxX}" y="${bottomBarY}" width="${boxW}" height="${bottomBarH}" rx="8" fill="#0d1117" stroke="#1f6f3a" stroke-width="1"/>
-    <text x="${boxX + 16}" y="${bottomBarY + 21}" fill="#8b949e" class="font-code font-11 font-bold">Available commands:</text>
-    ${chipsSvg.join('')}
-  </g>
-`);
+const svgWidth = 800;
+const svgHeight = currY + 24;
+const windowX = 0.5;
+const windowY = 0.5;
+const windowW = 799;
+const windowH = svgHeight - 1;
 
 let delayStyles = [];
 for (let i = 0; i < animStep; i++) {
@@ -533,7 +542,7 @@ const svgContent = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${svgWi
 
   <rect width="100%" height="100%" fill="#0a0e0a"/>
 
-  <rect x="${windowX}" y="${windowY}" width="${windowW}" height="${windowH}" rx="14" ry="14" fill="#0d1117" stroke="#1f6f3a" stroke-width="1"/>
+  <rect x="${windowX}" y="${windowY}" width="${windowW}" height="${windowH}" rx="10" ry="10" fill="#0d1117" stroke="#1f6f3a" stroke-width="1"/>
 
   <circle cx="38" cy="34" r="6" fill="#ff5f57"/>
   <circle cx="56" cy="34" r="6" fill="#febc2e"/>
@@ -549,4 +558,3 @@ await fs.mkdir(OUT_DIR, { recursive: true });
 await fs.writeFile(OUT_PATH, svgContent, 'utf8');
 
 console.log('done');
-
