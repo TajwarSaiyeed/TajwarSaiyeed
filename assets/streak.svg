@@ -22,7 +22,7 @@
     
     <!-- Total Contributions -->
     <g transform="translate(100, 0)">
-      <text x="0" y="86" text-anchor="middle" font-size="22" font-weight="700" fill="#c9d1d9">12,619</text>
+      <text x="0" y="86" text-anchor="middle" font-size="22" font-weight="700" fill="#c9d1d9">12,620</text>
       <text x="0" y="108" text-anchor="middle" font-size="12" font-weight="600" fill="#8b949e">Total Contributions</text>
       <text x="0" y="142" text-anchor="middle" font-size="10" fill="#8b949e">Jan 1, 2022 - Present</text>
     </g>

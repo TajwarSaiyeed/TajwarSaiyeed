@@ -23,20 +23,20 @@
       <rect x="25" y="52" width="445" height="10" rx="5" />
     </clipPath>
     <g clip-path="url(#langBarClip)">
-      <rect x="25.00" y="52" width="229.26" height="10" fill="#3178c6" /><rect x="254.26" y="52" width="127.06" height="10" fill="#f1e05a" /><rect x="381.32" y="52" width="38.19" height="10" fill="#f34b7d" /><rect x="419.52" y="52" width="13.76" height="10" fill="#DA5B0B" /><rect x="433.27" y="52" width="13.41" height="10" fill="#e34c26" /><rect x="446.68" y="52" width="8.54" height="10" fill="#663399" /><rect x="455.22" y="52" width="7.65" height="10" fill="#3572A5" /><rect x="462.87" y="52" width="7.13" height="10" fill="#555555" />
+      <rect x="25.00" y="52" width="228.30" height="10" fill="#3178c6" /><rect x="253.30" y="52" width="128.39" height="10" fill="#f1e05a" /><rect x="381.69" y="52" width="38.03" height="10" fill="#f34b7d" /><rect x="419.73" y="52" width="13.70" height="10" fill="#DA5B0B" /><rect x="433.43" y="52" width="13.35" height="10" fill="#e34c26" /><rect x="446.78" y="52" width="8.50" height="10" fill="#663399" /><rect x="455.28" y="52" width="7.61" height="10" fill="#3572A5" /><rect x="462.90" y="52" width="7.10" height="10" fill="#555555" />
     </g>
     
       <circle cx="31" cy="84" r="5" fill="#3178c6" />
       <text x="43" y="88" font-size="12" font-weight="600" fill="#c9d1d9">TypeScript</text>
-      <text x="240" y="88" font-size="12" text-anchor="end" fill="#8b949e">51.5%</text>
+      <text x="240" y="88" font-size="12" text-anchor="end" fill="#8b949e">51.3%</text>
     
       <circle cx="31" cy="110" r="5" fill="#f1e05a" />
       <text x="43" y="114" font-size="12" font-weight="600" fill="#c9d1d9">JavaScript</text>
-      <text x="240" y="114" font-size="12" text-anchor="end" fill="#8b949e">28.6%</text>
+      <text x="240" y="114" font-size="12" text-anchor="end" fill="#8b949e">28.9%</text>
     
       <circle cx="31" cy="136" r="5" fill="#f34b7d" />
       <text x="43" y="140" font-size="12" font-weight="600" fill="#c9d1d9">C++</text>
-      <text x="240" y="140" font-size="12" text-anchor="end" fill="#8b949e">8.6%</text>
+      <text x="240" y="140" font-size="12" text-anchor="end" fill="#8b949e">8.5%</text>
     
       <circle cx="31" cy="162" r="5" fill="#DA5B0B" />
       <text x="43" y="166" font-size="12" font-weight="600" fill="#c9d1d9">Jupyter Notebook</text>
