@@ -28,7 +28,7 @@ jobs:
       - name: Generate cards
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: node scripts/generate.mjs && node scripts/pins.mjs
+        run: node scripts/terminal.mjs && node scripts/pins.mjs
 
       - name: Commit and push changes
         run: |

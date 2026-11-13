@@ -1,87 +1,24 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,100:7aa2f7&height=200&section=header&text=Tajwar%20Saiyeed%20Abid&fontSize=42&fontColor=ffffff&animation=fadeIn" width="100%" alt="Tajwar Saiyeed Abid" />
 
-  <a href="https://github.com/tajwarsaiyeed">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1000&color=7AA2F7&center=true&vCenter=true&width=600&lines=Programmer+%26+Problem+Solver;CSE+Student;Building+impactful+digital+solutions" alt="Typing SVG" />
-  </a>
+<img src="./assets/terminal.svg" width="800" alt="Tajwar Saiyeed Abid — terminal" />
+
+<br/><br/>
+
+<img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,tailwind,go,python,django,mongodb,postgres,git,docker,linux&perline=14" width="800" alt="Tech stack" />
+
+<br/><br/>
+
+<a href="https://github.com/TajwarSaiyeed/vault.cloud"><img src="./assets/pin-vault-cloud.svg" width="390" alt="vault-cloud" /></a>
+<a href="https://github.com/TajwarSaiyeed/labdesk"><img src="./assets/pin-labdesk.svg" width="390" alt="labdesk" /></a>
+<br/>
+<a href="https://github.com/TajwarSaiyeed/limecart-ecommerce"><img src="./assets/pin-limecart-ecommerce.svg" width="390" alt="limecart-ecommerce" /></a>
+<a href="https://github.com/TajwarSaiyeed/brick-game-9999-in-1"><img src="./assets/pin-brick-game-9999-in-1.svg" width="390" alt="brick-game-9999-in-1" /></a>
+<br/>
+<a href="https://github.com/StaticMania/keep-react/pull/16"><img src="./assets/pin-keep-react.svg" width="390" alt="keep-react" /></a>
+
+<br/><br/>
+
 </div>
-
-### ⚡ About Me
-
-- 🎓 **B.Sc. (Hons.) in Computer Science & Engineering** student.
-- 💼 Working at **[@tect0nic-official](https://github.com/tect0nic-official)**.
-- 💻 Building modern web applications with **Next.js** and **TypeScript**.
-- 🌱 Actively learning and building with **Python / Django** and **Go**.
-- 💬 Ask me about **DSA / problem solving**, or reach out for open-source collaboration.
-
----
-
-### 🛠️ Tech Stack
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,tailwind,go,python,django,mongodb,postgres,git,docker,linux&perline=7" alt="Tech Stack" />
-</p>
-
----
-
-### 🚀 Featured Projects
-
-<table align="center">
-  <tr>
-    <td>
-      <a href="https://github.com/TajwarSaiyeed/vault.cloud">
-        <img src="./assets/pin-vault-cloud.svg" alt="vault.cloud" />
-      </a>
-    </td>
-    <td>
-      <a href="https://github.com/TajwarSaiyeed/labdesk">
-        <img src="./assets/pin-labdesk.svg" alt="labdesk" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/TajwarSaiyeed/limecart-ecommerce">
-        <img src="./assets/pin-limecart-ecommerce.svg" alt="limecart-ecommerce" />
-      </a>
-    </td>
-    <td>
-      <a href="https://github.com/TajwarSaiyeed/brick-game-9999-in-1">
-        <img src="./assets/pin-brick-game-9999-in-1.svg" alt="brick-game-9999-in-1" />
-      </a>
-    </td>
-  </tr>
-</table>
-
-#### 🤝 Open Source Contribution
-
-<p align="center">
-  <a href="https://github.com/StaticMania/keep-react/pull/16">
-    <img src="./assets/pin-keep-react.svg" alt="keep-react Contribution" />
-  </a>
-</p>
-
----
-
-### 📊 GitHub & Coding Stats
-
-<p align="center">
-  <img src="./assets/stats.svg" alt="GitHub Stats" />
-  <img src="./assets/languages.svg" alt="Top Languages" />
-</p>
-
-<p align="center">
-  <img src="./assets/streak.svg" alt="Contribution Streak" />
-  <img src="./assets/leetcode.svg" alt="LeetCode Stats" />
-</p>
-
-<p align="center">
-  <img src="./assets/activity.svg" alt="Contribution Activity" />
-</p>
-
----
-
-### 🌐 Connect With Me
 
 <p align="center">
   <a href="https://x.com/tajwarsaiyeed" target="_blank">
@@ -108,8 +45,4 @@
   <a href="https://www.facebook.com/tajwarsaiyeedabid.dev" target="_blank">
     <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
   </a>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,100:7aa2f7&height=120&section=footer" width="100%" alt="Footer" />
 </p>
