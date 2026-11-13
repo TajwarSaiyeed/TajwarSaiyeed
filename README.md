@@ -1,33 +1,115 @@
-# Hi 👋, I'm Tajwar Saiyeed Abid
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,100:7aa2f7&height=200&section=header&text=Tajwar%20Saiyeed%20Abid&fontSize=42&fontColor=ffffff&animation=fadeIn" width="100%" alt="Tajwar Saiyeed Abid" />
 
-# 💫 About Me:
+  <a href="https://github.com/tajwarsaiyeed">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1000&color=7AA2F7&center=true&vCenter=true&width=600&lines=Programmer+%26+Problem+Solver;CSE+Student;Building+impactful+digital+solutions" alt="Typing SVG" />
+  </a>
+</div>
 
-🔭 I’m currently working with Next.js.
+### ⚡ About Me
 
-👯 I’m looking to collaborate on open-source projects.
-
-🤝 I’m open to learning and discussing various tech topics.
-
-🌱 I’m currently learning Python and Django.
-
-🎓 I’m pursuing a B.Sc. (Hons.) in Computer Science and Engineering.
-
-💬 Ask me about Data Structures, Algorithms, and Problem Solving.
-
-
-## 🌐 Socials:
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://www.facebook.com/tajwarsaiyeedabid.dev) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/tajwarsaiyeed) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@rjabid36) [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/19961650) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/tajwarsaiyeed) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@tajwarsaiyeed) [![Codepen](https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/TajwarSaiyeed) 
-
-# 💻 Interesting Contributions
-
-[![keep-react](https://github-readme-stats.vercel.app/api/pin/?username=StaticMania&repo=keep-react&theme=dark&show_owner=true)](https://github.com/StaticMania/keep-react/pull/16)
- 
-![LeetCode Stats](https://leetcard.jacoblin.cool/tajwarsaiyeed?theme=dark&font=Vollkorn&ext=activity)
-
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=tajwarsaiyeed&theme=dark&hide_border=true&include_all_commits=true&count_private=true)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=tajwarsaiyeed&theme=dark&hide_border=true)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=tajwarsaiyeed&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact&langs_count=10)
+- 🎓 **B.Sc. (Hons.) in Computer Science & Engineering** student.
+- 💼 Working at **[@tect0nic-official](https://github.com/tect0nic-official)**.
+- 💻 Building modern web applications with **Next.js** and **TypeScript**.
+- 🌱 Actively learning and building with **Python / Django** and **Go**.
+- 💬 Ask me about **DSA / problem solving**, or reach out for open-source collaboration.
 
 ---
-[![tajwar's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=tajwarsaiyeed&bg_color=000000&color=9e4c98&line=0055ff&point=ff0000&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+### 🛠️ Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,tailwind,go,python,django,mongodb,postgres,git,docker,linux&perline=7" alt="Tech Stack" />
+</p>
+
+---
+
+### 🚀 Featured Projects
+
+<table align="center">
+  <tr>
+    <td>
+      <a href="https://github.com/TajwarSaiyeed/vault.cloud">
+        <img src="./assets/pin-vault-cloud.svg" alt="vault.cloud" />
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/TajwarSaiyeed/labdesk">
+        <img src="./assets/pin-labdesk.svg" alt="labdesk" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/TajwarSaiyeed/limecart-ecommerce">
+        <img src="./assets/pin-limecart-ecommerce.svg" alt="limecart-ecommerce" />
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/TajwarSaiyeed/brick-game-9999-in-1">
+        <img src="./assets/pin-brick-game-9999-in-1.svg" alt="brick-game-9999-in-1" />
+      </a>
+    </td>
+  </tr>
+</table>
+
+#### 🤝 Open Source Contribution
+
+<p align="center">
+  <a href="https://github.com/StaticMania/keep-react/pull/16">
+    <img src="./assets/pin-keep-react.svg" alt="keep-react Contribution" />
+  </a>
+</p>
+
+---
+
+### 📊 GitHub & Coding Stats
+
+<p align="center">
+  <img src="./assets/stats.svg" alt="GitHub Stats" />
+  <img src="./assets/languages.svg" alt="Top Languages" />
+</p>
+
+<p align="center">
+  <img src="./assets/streak.svg" alt="Contribution Streak" />
+  <img src="./assets/leetcode.svg" alt="LeetCode Stats" />
+</p>
+
+<p align="center">
+  <img src="./assets/activity.svg" alt="Contribution Activity" />
+</p>
+
+---
+
+### 🌐 Connect With Me
+
+<p align="center">
+  <a href="https://x.com/tajwarsaiyeed" target="_blank">
+    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" />
+  </a>
+  <a href="https://leetcode.com/u/TajwarSaiyeed/" target="_blank">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
+  </a>
+  <a href="https://stackoverflow.com/users/19961650" target="_blank">
+    <img src="https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white" alt="Stack Overflow" />
+  </a>
+  <a href="https://medium.com/@rjabid36" target="_blank">
+    <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" />
+  </a>
+  <a href="https://youtube.com/@tajwarsaiyeed" target="_blank">
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
+  </a>
+  <a href="https://codepen.io/TajwarSaiyeed" target="_blank">
+    <img src="https://img.shields.io/badge/CodePen-000000?style=for-the-badge&logo=codepen&logoColor=white" alt="CodePen" />
+  </a>
+  <a href="https://instagram.com/tajwarsaiyeed" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+  </a>
+  <a href="https://www.facebook.com/tajwarsaiyeedabid.dev" target="_blank">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,100:7aa2f7&height=120&section=footer" width="100%" alt="Footer" />
+</p>
